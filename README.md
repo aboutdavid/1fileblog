@@ -1,4 +1,4 @@
-# 1fileblog
+<h1 align="center">1fileblog<h1>
 <p align="center">
 <img src="https://img.shields.io/github/issues-raw/aboutdavid/1fileblog"></img>
 <img alt="GitHub" src="https://img.shields.io/github/license/aboutdavid/1fileblog">
