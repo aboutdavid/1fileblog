@@ -23,8 +23,7 @@ $cached=time()-filemtime($filecachepath);
 $cached_date = date("l\, F jS\, Y \@ h:i:s A",filemtime($filecachepath));
   if ($cached < $config->cachetime){
     echo "<!-- Serving file from cache. Cached on $cached_date ($config->timezone) -->";
-    echo file_get_contents($filecachepath);
-    die();
+    die(file_get_contents($filecachepath));
   };
 };
 ob_start();
