@@ -32,11 +32,11 @@ Run these commands to get started:
 ```bash
 mkdir posts
 mkdir cache
-curl https://github.com/aboutDavid/1fileblog/raw/main/blog.php -O index.php
+wget https://github.com/aboutDavid/1fileblog/raw/main/blog.php
 # If you want to enable rewrites (default enabled)
-curl https://raw.githubusercontent.com/aboutDavid/1fileblog/main/.htaccess -O .htaccess
+wget https://raw.githubusercontent.com/aboutDavid/1fileblog/main/.htaccess
 # If you want to enable markdown (default enabled)
-curl https://github.com/chadbraunduin/markdown.bash/raw/master/markdown.sh -O markdown.sh
+wget https://github.com/chadbraunduin/markdown.bash/raw/master/markdown.sh
 ```
 
 \*unless you want to use markdown, external stylesheet or use url rewrites, then you will need download a few files, but it can function with only 1!
