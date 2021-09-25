@@ -34,9 +34,9 @@ mkdir posts
 mkdir cache
 curl https://github.com/aboutDavid/1fileblog/raw/main/blog.php -O index.php
 # If you want to enable rewrites (default enabled)
-curl https://raw.githubusercontent.com/aboutDavid/1fileblog/main/.htaccess
+curl https://raw.githubusercontent.com/aboutDavid/1fileblog/main/.htaccess -O .htaccess
 # If you want to enable markdown (default enabled)
-curl https://github.com/chadbraunduin/markdown.bash/raw/master/markdown.sh
+curl https://github.com/chadbraunduin/markdown.bash/raw/master/markdown.sh -O markdown.sh
 ```
 
 \*unless you want to use markdown, external stylesheet or use url rewrites, then you will need download a few files, but it can function with only 1!
